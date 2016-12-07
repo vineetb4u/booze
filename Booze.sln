@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Booze", "src\Booze\Booze.xproj", "{62420064-4EF1-4972-9429-DEF6B3C703D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booze.EntityFramework", "src\Booze.EntityFramework\Booze.EntityFramework.csproj", "{D4461A7D-216A-456D-96E6-9FBE787D1C1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{62420064-4EF1-4972-9429-DEF6B3C703D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62420064-4EF1-4972-9429-DEF6B3C703D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62420064-4EF1-4972-9429-DEF6B3C703D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4461A7D-216A-456D-96E6-9FBE787D1C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4461A7D-216A-456D-96E6-9FBE787D1C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4461A7D-216A-456D-96E6-9FBE787D1C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4461A7D-216A-456D-96E6-9FBE787D1C1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{62420064-4EF1-4972-9429-DEF6B3C703D4} = {D4D21FF0-21E8-4327-93C1-3C2FEC780D57}
+		{D4461A7D-216A-456D-96E6-9FBE787D1C1A} = {D4D21FF0-21E8-4327-93C1-3C2FEC780D57}
 	EndGlobalSection
 EndGlobal
